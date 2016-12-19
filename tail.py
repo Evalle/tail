@@ -8,11 +8,11 @@ Usage:
 import sys
 
 try:
-	lines = int(sys.argv[1])
-	file = sys.argv[2]
+    lines = int(sys.argv[1])
+    file = sys.argv[2]
 except:
-	print(__doc__)
-	sys.exit(1)
+    print(__doc__)
+    sys.exit(1)
 
 with open(file) as myfile:
     firstlines = myfile.readlines()[-lines:]
