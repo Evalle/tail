@@ -2,7 +2,7 @@
 
 """
 Usage:
-	tail.py <lines> <filename>
+    tail.py <lines> <filename>
 """
 
 import sys
