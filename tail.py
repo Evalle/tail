@@ -16,6 +16,5 @@ except:
 
 with open(file) as myfile:
     firstlines = myfile.readlines()[-lines:]
-    print()
-    [print(x) for x in firstlines]
+    [print(x.strip()) for x in firstlines]
     myfile.close()
