@@ -16,5 +16,6 @@ except:
 
 with open(filename) as myfile:
     firstlines = myfile.readlines()[:lines]
+    print('--' + sys.argv[2] + '--')
     [print(x.strip()) for x in firstlines]
     myfile.close()
